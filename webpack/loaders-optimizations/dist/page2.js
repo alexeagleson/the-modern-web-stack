@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[0],[,(e,n,o)=>{var c=o(0),s=o.n(c);console.log("loading page2.js");const a=document.createElement("h1");a.innerHTML=s()(["Welcome to","page 2!"]," "),document.body.append(a)}],e=>{e(e.s=1)}]);

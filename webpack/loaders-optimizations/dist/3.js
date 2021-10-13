@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[3],{15:(e,s,a)=>{a.r(s),a.d(s,{default:()=>c}),console.log("this code has been loaded");const c=()=>"big data"}}]);
