@@ -1,5 +1,23 @@
 # Understanding the Modern Web Stack: Babel
 
+## Version Info & Repository
+
+_(This tutorial is written using [Babel v7](https://babeljs.io/blog/2018/08/27/7.0.0) however the general concepts will apply to any version)_
+
+You can find the official repository for the _Understanding the Modern Web Stack_ tutorial series [here](https://github.com/alexeagleson/the-modern-web-stack).  
+
+This includes the final versions of the code examples from each tutorial to help make sure you haven't missed anything.  You can also submit pull requests for any errors or corrections you may find (and I will update the blog posts accordingly).
+
+## Table of Contents
+
+1. [What is Babel](#what-is-babel)
+1. [Prerequisites](#prerequisites)
+1. [Initializing the Project](#initializing-the-project)
+1. [Installing Babel](#installing-babel)
+1. [Transforming Your Code](#transforming-your-code)
+1. [Polyfills](#polyfills)
+1. [Wrapping Up](#wrapping-up)
+
 ## What is Babel?
 
 Babel is a tool that lets you write your Javascript code using all the latest syntax and features, and run it in browsers that may not support those features. Babel is a [transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) that will translate your modern JS code into an older version of Javscript that more browsers are able to understand.
@@ -233,7 +251,7 @@ We'll begin by trying to load the file in IE11. If your machine doesn't have Int
 
 When we run Babel and try to load our `script-transformed.js` file in IE11 we get the following error on the console:
 
-![Array Includes Example](images/array-includes-error.jpg)
+![Array Includes Error](https://i.imgur.com/fLPE61M.jpg)
 
 Now let's add the `core-js` library to a `<script>` tag inside the `<head>` in our `index.html`.  You can find the most updated minified bundle URL [here](https://cdnjs.com/libraries/core-js).  
 
@@ -251,7 +269,7 @@ Now let's add the `core-js` library to a `<script>` tag inside the `<head>` in o
 
 When we reload the page in IE11 we get:
 
-![Array Includes Example](images/array-includes-works.jpg)
+![Array Includes Example](https://i.imgur.com/ykSDLvL.jpg)
 
 It works! We're writing modern Javascript and running it in an old dinosaur browser! That's great!
 
@@ -267,13 +285,15 @@ Please check out the other entries in this series!  Feel free to leave a comment
 
 - [Babel](https://dev.to/alexeagleson/building-a-modern-web-stack-babel-3hfp)
 
-- [React with (and without!) JSX](https://dev.to/alexeagleson/understanding-the-modern-web-stack-react-with-and-without-jsx-31c7)
+- [React & JSX](https://dev.to/alexeagleson/understanding-the-modern-web-stack-react-with-and-without-jsx-31c7)
 
-- [Webpack - The Basics](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-part-1-2mn1)
+- Webpack
 
-- [Webpack - Loaders, Optimizations & Bundle Analysis](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-part-2-49bj)
+    - [The Basics](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-part-1-2mn1)
 
-- [Webpack - DevServer, React & Typescript](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-devserver-react-typescript-4b9b)
+    - [Loaders, Optimizations & Bundle Analysis](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-part-2-49bj)
+
+    - [DevServer, React & Typescript](https://dev.to/alexeagleson/understanding-the-modern-web-stack-webpack-devserver-react-typescript-4b9b)
 
 <a href="https://twitter.com/eagleson_alex?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">@eagleson_alex</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> on Twitter
 
