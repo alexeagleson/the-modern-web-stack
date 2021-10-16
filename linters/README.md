@@ -141,7 +141,7 @@ We can look at what each one of these fields in the config does:
 
 - `extends` - This option allows us to inherit from existing lists of rules. ESLint provides a list of [default recommended rules](https://eslint.org/docs/rules/). If there are any you disagree with, they can be disabled manually in the `rules` field on the config.
 
-- `parserOptions` - Tells ESLint which [ECMA version](https://en.wikipedia.org/wiki/ECMAScript) of Javascript you are targeting. For example if you use a value fo `2015` it will throw an error if you try to use syntax like `const` or `let` instead of `var`. Setting it to `2016` would allow you to use them.
+- `parserOptions` - The `ecmaVersion` property tells ESLint which [ECMA version](https://en.wikipedia.org/wiki/ECMAScript) of Javascript you are targeting. For example if you use a value fo `2015` it will throw an error if you try to use syntax like `const` or `let` instead of `var`. Setting it to `2016` would allow you to use them.
 
 - `rules` - This is where you manually configure any rules you would like to apply in your project, and whether you want to show a warning or throw an error. Tools can be set to listen for ESLint errors and cancel if they are encountered.
 
@@ -331,7 +331,7 @@ Please check out the other entries in this series!  Feel free to leave a comment
 
 - [Running a Local Web Server](https://dev.to/alexeagleson/understanding-the-modern-web-stack-running-a-local-web-server-4d8g)
 
-- [Linters (ESLint)]()
+- [Linters (ESLint)](https://dev.to/alexeagleson/understanding-the-modern-web-stack-linters-eslint-59pm)
 
 - [Babel](https://dev.to/alexeagleson/building-a-modern-web-stack-babel-3hfp)
 
@@ -347,6 +347,6 @@ Please check out the other entries in this series!  Feel free to leave a comment
 
 ---
 
-<a href="https://twitter.com/eagleson_alex?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">@eagleson_alex</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> on Twitter
+For more tutorials like this, follow me <a href="https://twitter.com/eagleson_alex?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">@eagleson_alex</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> on Twitter
 
 Thanks for reading, and stay tuned!
