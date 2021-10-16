@@ -1,0 +1,21 @@
+{
+  "name": "linters",
+  "version": "1.0.0",
+  "description": "## Version Info & Repository",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-react": "^7.26.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}

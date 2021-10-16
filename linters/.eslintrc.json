@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "env": {
+    "browser": true
+  },
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "airbnb", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "camelcase": "warn"
+  }  
+}
