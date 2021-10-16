@@ -6,6 +6,20 @@ You can find the official repository for the _Understanding the Modern Web Stack
 
 This includes the final versions of the code examples from each tutorial to help make sure you haven't missed anything. You can also submit pull requests for any errors or corrections you may find (and I will update the blog posts accordingly).
 
+
+## Table of Contents
+
+1. [What is a linter?](#what-is-a-linter)
+1. [What is ESLint?](#what-is-eslint)
+1. [Prerequisites](#prerequisites)
+1. [Initializing the Project](#initializing-the-project)
+1. [Installing ESLint](#installing-eslint)
+1. [Linting Your Project](#linting-your-project)
+1. [Extending Configurations (Airbnb)](#extending-configurations-airbnb)
+1. [Plugins (React)](#plugins-react)
+1. [Editor Integration (VS Code)](#editor-integration-vs-code)
+1. [Wrapping Up](#wrapping-up)
+
 ## What is a linter?
 
 A code [linter](<https://en.wikipedia.org/wiki/Lint_(software)>) is a tool to help minimize bad coding practices, and also help to standardize code syntax between team members working on a single project.
@@ -135,7 +149,7 @@ We can look at what each one of these fields in the config does:
 
 We have decided to use the default `eslint:recommended` set of rules, but we would like to enforce that semicolons must always be used at the end of lines, and they all developers on the team use double quotes instead of single.
 
-## Running ESLint
+## Linting Your Project
 
 With this configuration in place, let's run ESLint on our `script.js` file with the following command:
 
