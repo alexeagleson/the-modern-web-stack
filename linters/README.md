@@ -1,7 +1,5 @@
 # Understanding the Modern Web Stack: Linters (ESLint)
 
-## Version Info & Repository
-
 You can find the official repository for the _Understanding the Modern Web Stack_ tutorial series [here](https://github.com/alexeagleson/the-modern-web-stack).
 
 This includes the final versions of the code examples from each tutorial to help make sure you haven't missed anything. You can also submit pull requests for any errors or corrections you may find (and I will update the blog posts accordingly).
