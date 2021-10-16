@@ -72,8 +72,8 @@ Create a file in your root directory called `script.js` with the following code:
 
 ```js
 const person = {
-  name: "Jen",
-  name: "Steve",
+  name: 'Jen',
+  name: 'Steve',
 };
 
 let some_text = undefined;
