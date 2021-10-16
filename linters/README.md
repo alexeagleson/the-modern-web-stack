@@ -1,4 +1,4 @@
-# Understanding the Modern Web Stack: Babel
+# Understanding the Modern Web Stack: Linters (ESLint)
 
 ## Version Info & Repository
 
