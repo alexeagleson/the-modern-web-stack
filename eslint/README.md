@@ -4,7 +4,6 @@ You can find the official repository for the _Understanding the Modern Web Stack
 
 This includes the final versions of the code examples from each tutorial to help make sure you haven't missed anything. You can also submit pull requests for any errors or corrections you may find (and I will update the blog posts accordingly).
 
-
 ## Table of Contents
 
 1. [What is a linter?](#what-is-a-linter)
@@ -145,7 +144,7 @@ We can look at what each one of these fields in the config does:
 
 - `rules` - This is where you manually configure any rules you would like to apply in your project, and whether you want to show a warning or throw an error. Tools can be set to listen for ESLint errors and cancel if they are encountered.
 
-We have decided to use the default `eslint:recommended` set of rules, but we would like to enforce that semicolons must always be used at the end of lines, and they all developers on the team use double quotes instead of single.
+We have decided to use the default `eslint:recommended` set of rules, but we would like to enforce that semicolons must always be used at the end of lines, and that all developers on the team use double quotes instead of single.
 
 ## Linting Your Project
 
@@ -317,7 +316,6 @@ _(Note you may have to close and re-open VS Code before it begins to properly li
 Now we can see the errors in our code as we write them.  The extension will automatically use the rules in your `.eslintrc.json` file:
 
 ![ESLint Extension](https://i.imgur.com/CQMyh6u.png)
-
 
 ## Wrapping Up
 
