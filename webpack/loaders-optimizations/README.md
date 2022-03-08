@@ -97,7 +97,7 @@ Now install your dependencies, and run the webpack command to generate your `dis
 ```bash
 npm init -y
 npm install lodash
-npm install webpack webpack-cli html-webpack-plugin --save dev
+npm install webpack webpack-cli html-webpack-plugin --save-dev
 npx webpack
 ```
 
